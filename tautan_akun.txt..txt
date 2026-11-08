@@ -1,0 +1,8 @@
+DOKUMEN LINK AKUN MAHASISWA
+Nama     : Al Fariz Prakoso
+NIM      : 202511420018
+Matkul   : Komputasi Numerik
+
+1. GitHub Repository : https://github.com/farizprakoso/Komputasi-Numerik
+2. Google Colab      : https://colab.research.google.com/
+3. LinkedIn Profile  : https://www.linkedin.com/in/[isi-username-linkedin-anda]
