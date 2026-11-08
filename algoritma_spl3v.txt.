@@ -1,0 +1,37 @@
+===================================================================
+ALGORITMA PENYELESAIAN SISTEM PERSAMAAN LINEAR 3 VARIABEL (SPL3V)
+METODE ELIMINASI GAUSS
+===================================================================
+Penyusun : Al Fariz Prakoso
+NIM      : 202511420018
+Matkul   : Komputasi Numerik
+
+Bentuk Umum SPL3V:
+   a1*x + b1*y + c1*z = d1
+   a2*x + b2*y + c2*z = d2
+   a3*x + b3*y + c3*z = d3
+
+Langkah-Langkah Logika Penyelesaian:
+
+1. Pembentukan Matriks Teraugmentasi:
+   - Gabungkan matriks koefisien A (ukuran 3x3) dan matriks konstanta B (ukuran 3x1) menjadi matriks teraugmentasi [A|B] berukuran 3x4.
+
+2. Eliminasi Maju (Forward Elimination):
+   - Pilih elemen A[0][0] sebagai pivot utama.
+   - Hitung faktor rasio m21 = A[1][0] / A[0][0] dan m31 = A[2][0] / A[0][0].
+   - Operasi Baris Elementer (OBE): 
+     * Baris 2 = Baris 2 - (m21 * Baris 1)
+     * Baris 3 = Baris 3 - (m31 * Baris 1)
+   - Pilih elemen A[1][1] sebagai pivot kedua.
+   - Hitung faktor rasio m32 = A[2][1] / A[1][1].
+   - Operasi Baris Elementer (OBE): 
+     * Baris 3 = Baris 3 - (m32 * Baris 2)
+   - Hasil dari tahap ini adalah bentuk Matriks Segitiga Atas.
+
+3. Substitusi Balik (Back Substitution):
+   - Hitung nilai z dari baris 3: z = B[2] / A[2][2]
+   - Hitung nilai y dari baris 2: y = (B[1] - A[1][2]*z) / A[1][1]
+   - Hitung nilai x dari baris 1: x = (B[0] - A[0][1]*y - A[0][2]*z) / A[0][0]
+
+4. Output Solusi:
+   - Tampilkan hasil akhir nilai variabel x, y, dan z.
