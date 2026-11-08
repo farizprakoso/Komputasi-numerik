@@ -1,0 +1,32 @@
+===================================================================
+ALGORITMA PENYELESAIAN PERSAMAAN NON-LINEAR
+METODE BISECTION (BAGI DUA)
+===================================================================
+Penyusun : Al Fariz Prakoso
+NIM      : 202511420018
+Matkul   : Komputasi Numerik
+
+Tujuan: Mencari akar persamaan f(x) = 0 pada rentang interval [a, b].
+
+Langkah-Langkah Logika Penyelesaian:
+
+1. Inisialisasi & Input Data:
+   - Tentukan fungsi non-linear f(x).
+   - Tentukan batas bawah (a) dan batas atas (b).
+   - Tentukan toleransi galat/error (e) dan batas maksimum iterasi.
+
+2. Validasi Interval Awal:
+   - Hitung nilai f(a) dan f(b).
+   - Cek syarat Teorema Nilai Antara: Jika f(a) * f(b) >= 0, maka interval [a, b] tidak valid (hentikan proses).
+
+3. Proses Iterasi (Bagi Dua Interval):
+   - Hitung titik tengah interval: c = (a + b) / 2
+   - Hitung nilai f(c) dan perkiraan galat error = |b - a| / 2
+   - Cek Kondisi Berhenti:
+     * Jika |f(c)| < e atau galat < e, maka c adalah akar persamaan (iterasi selesai).
+   - Pembaruan Sub-interval:
+     * Jika f(a) * f(c) < 0, maka akar berada di sub-interval kiri (set b = c).
+     * Jika f(a) * f(c) > 0, maka akar berada di sub-interval kanan (set a = c).
+
+4. Output Solusi:
+   - Tampilkan perkiraan nilai akar (c), nilai fungsi f(c), galat akhir, dan jumlah iterasi.
