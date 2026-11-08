@@ -1,0 +1,8 @@
+RIWAYAT PROMPT AI KOMPUTASI NUMERIK
+Nama: Al Fariz Prakoso (NIM: 202511420018)
+
+Prompt 1:
+"Buatkan algoritma dan program Python Google Colab metode Eliminasi Gauss SPL3V per cell beserta penjelasannya."
+
+Prompt 2:
+"Buatkan algoritma dan program Python Google Colab metode Bisection untuk pencarian akar persamaan non-linear f(x) = x^3 - x - 2."
