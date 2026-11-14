@@ -1,8 +1,15 @@
-RIWAYAT PROMPT AI KOMPUTASI NUMERIK
-Nama: Al Fariz Prakoso (NIM: 202511420018)
+===================================================================
+DOKUMEN RIWAYAT PENGGUNAAN PROMPT AI
+===================================================================
+Nama   : Al Fariz Prakoso
+NIM    : 202511420018
+Matkul : Komputasi Numerik
 
-Prompt 1:
-"Buatkan algoritma dan program Python Google Colab metode Eliminasi Gauss SPL3V per cell beserta penjelasannya."
+1. Prompt Penyusunan Struktur & Dokumen Awal:
+"Buatkan struktur repository GitHub dan format dokumentasi algoritma untuk penyelesaian Sistem Persamaan Linear 3 Variabel (SPL3V) menggunakan metode Eliminasi Gauss serta persamaan non-linear menggunakan metode Bisection."
 
-Prompt 2:
-"Buatkan algoritma dan program Python Google Colab metode Bisection untuk pencarian akar persamaan non-linear f(x) = x^3 - x - 2."
+2. Prompt Pembuatan & Penyesuaian Kode SPL3V (Google Colab):
+"Buatkan kode Python terstruktur per cell di Google Colab untuk menyelesaikan SPL3V 2x + 3y - z = 4, 3x - y + 2z = 11, dan x + 2y + 3z = 13 menggunakan metode Eliminasi Gauss dengan nama variabel yang deskriptif serta komentar penjelas di setiap baris kode."
+
+3. Prompt Pembuatan & Penyesuaian Kode Bisection (Google Colab):
+"Buatkan kode Python terstruktur per cell di Google Colab untuk mencari akar persamaan non-linear f(x) = x^3 - 2x - 5 pada interval [2.0, 3.0] menggunakan metode Bisection, lengkap dengan visualisasi grafik Matplotlib dan komentar penjelas di setiap baris."
